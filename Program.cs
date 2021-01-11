@@ -22,7 +22,7 @@ namespace PlaceHolder
             _client = new DiscordSocketClient();
             _client.Log += Log;
             
-            string token = "Nzk3OTExMzMwNDc1OTk5MjU0.X_tW1Q.rUtewSD1E7SybZbXqOC7ucaERuE";
+            string token = "";
 
             await _client.LoginAsync(TokenType.Bot, token);
             await _client.StartAsync();
